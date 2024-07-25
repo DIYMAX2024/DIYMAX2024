@@ -1,0 +1,8 @@
+import pandas as pd
+
+# Load the data from the Excel file
+file_path = "/mnt/data/Bank_Personal_Loan_Modelling.xlsx"
+data = pd.read_excel(file_path, sheet_name=None)
+
+# Display the sheet names to understand the structure of the file
+data.keys()
